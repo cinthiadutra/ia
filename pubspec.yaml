@@ -1,0 +1,115 @@
+name: bkopen
+description: "Um aplicativo que permite acesso a um Marketplace financeiro, com uma enorme variedade de produtos financeiros disponíveis pelas principais instituições do país."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+# publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+  # fan_carousel_image_slider: ^1.0.1
+  banner_carousel: ^1.2.1
+  dotted_border: ^2.1.0
+  mask_text_input_formatter: ^2.9.0
+  dropdown_search: ^5.0.6
+  image_picker: ^1.1.2
+  file_picker: ^8.0.5
+  path_provider: ^2.1.5
+  validatorless: any
+  shared_preferences: ^2.2.3
+  flutter_localizations:
+    sdk: flutter
+  extended_masked_text: ^3.0.1
+  webview_flutter: ^4.10.0
+  dio: ^5.5.0+1
+  dartz: ^0.10.1
+  flutter_pretty_dio_logger: ^3.0.0
+  video_player_adaptive: ^0.0.1
+  carousel_slider: ^5.0.0
+  # youtube_player_flutter: ^8.1.0
+  # youtube_player_iframe: ^5.1.5
+  video_player: ^2.9.1
+  package_info_plus: ^8.0.2
+  flutter_lints: ^5.0.0
+  web_socket_channel: ^3.0.1
+  retry: ^3.1.2
+  flutter_multi_formatter: ^2.13.0
+  search_cep: ^4.0.2
+  autocomplete_textfield: ^2.0.1
+  flutter_typeahead: ^5.2.0
+  url_launcher: ^6.3.1
+  flutter_inappwebview_macos: ^1.1.2
+  path_provider_android: ^2.2.12
+  permission_handler: ^11.3.1
+  # expression_language: ^1.0.1
+dependency_overrides:
+  url_launcher_ios: 6.3.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  adaptive_icon_background: "#ffffff"
+  image_path: "assets/images/png/playstore-icon.png"
+  min_sdk_android: 21
+
+  remove_alpha_ios: true
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/svg/
+    - assets/images/png/
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/sf_pro_display_medium.otf
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: assets/fonts/roboto_black_italic.ttf
+  #         style: italic
+  #         weight: 900
+  #       - asset: assets/fonts/roboto_black.ttf
+  #         weight: 900
+  #       - asset: assets/fonts/roboto_bold_italic.ttf
+  #         style: italic
+  #         weight: 400
+  #       - asset: assets/fonts/roboto_bold.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/roboto_italic.ttf
+  #         style: italic
+  #       - asset: assets/fonts/roboto_light_italic.ttf
+  #         style: italic
+  #         weight: 300
+  #       - asset: assets/fonts/roboto_light.ttf
+  #         weight: 300
+  #       - asset: assets/fonts/roboto_medium_italic.ttf
+  #         style: italic
+  #         weight: 500
+  #       - asset: assets/fonts/roboto_medium.ttf
+  #         weight: 500
+  #       - asset: assets/fonts/roboto_regular.ttf
+  #       - asset: assets/fonts/roboto_thin_italic.ttf
+  #         style: italic
+  #         weight: 100
+  #       - asset: assets/fonts/roboto_thin.ttf
+  #         weight: 100
